@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 // CHANGE THIS to the UserId you want players to follow
-const DEV_USERID = 123456789;
+const DEV_USERID = 21260004;
 
 app.get('/', (req, res) => {
   res.send('Follower Checker is running!');
